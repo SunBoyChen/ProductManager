@@ -1,0 +1,8 @@
+apps:
+  - script   : app.js             #启动文件
+    name: Product                #应用的名称
+    instances: max               #自动识别核心数
+    exec_mode: cluster           #集群模式
+    watch  : true                #热部署
+    env:
+      NODE_ENV: production        #设置环境变量为production
