@@ -1,6 +1,6 @@
 
 module.exports = {
-    PORT : 8081,
+    PORT : 8080,
     DB : 'product',
     TokenExpire: 1000 * 3600,
     TokenKey: 'product',
